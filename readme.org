@@ -1,0 +1,8 @@
+[[https://learnyousomeerlang.com/mnesia][Learn You Some Erlang]]
+
+#+BEGIN_SRC
+$ erl -make
+ ...
+$ ct_run -pa ebin/ -spec mafiapp.spec
+ ...
+#+END_SRC
